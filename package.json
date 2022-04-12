@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/pressone/docs.git"
+    "url": "git+https://github.com/rumsystem/rum-docs.git"
   },
   "keywords": [
     "docs"
   ],
-  "author": "Press.one",
+  "author": "Rum System",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/pressone/docs#readme"
+  "homepage": "https://github.com/rumsystem/rum-docs#readme"
 }
