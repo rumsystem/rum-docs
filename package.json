@@ -1,0 +1,22 @@
+{
+  "name": "docs",
+  "version": "0.0.1",
+  "description": "rum docs",
+  "main": "index.html",
+  "dependencies": {
+    "docsify-cli": "^4.4.2"
+  },
+  "scripts": {
+    "start": "docsify serve ./docs -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/pressone/docs.git"
+  },
+  "keywords": [
+    "docs"
+  ],
+  "author": "Press.one",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/pressone/docs#readme"
+}

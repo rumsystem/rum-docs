@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>文档</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="https://static-assets.xue.cn/pressone/static/assets/favicon/favicon.ico">
+  <link rel="stylesheet" href="_vendor/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      loadNavbar: true,
+      loadSidebar: true,
+      auto2top: true,
+      mergeNavbar: true,
+      executeScript: true,
+      subMaxLevel: 2,
+      repo: 'https://github.com/Press-One',
+      search: {
+        noData: '找不到结果',
+        paths: 'auto',
+        placeholder: '搜索',
+      },
+      copyCode: {
+        buttonText: {'/' : '点击复制'},
+        errorText: {'/' : '错误'},
+        successText: {'/' : '已复制'}
+      }
+    }
+  </script>
+  <script src="_vendor/docsify.min.js"></script>
+  <script src="_vendor/search.min.js"></script>
+  <script src="_vendor/emoji.min.js"></script>
+  <script src="_vendor/docsify-copy-code.js"></script>
+
+  <style>
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      padding: 8px 0;
+      margin-bottom: 0;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    h3 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    h4 {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    h5 {
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    h6 {
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    p {
+      margin-top: 5px !important;
+      margin-bottom: 5px !important;
+    }
+
+    .markdown-section {
+      max-width: 90% !important;
+    }
+
+    .docsify-copy-code-button {
+      opacity: 1 !important;
+    }
+
+    .lang-seed {
+      padding-top: 10px !important;
+      padding-bottom: 7px !important;
+      white-space: nowrap !important;
+      padding-left: 0px !important;
+      margin-right: 90px !important;
+    }
+
+    .refer_info {
+    font-size:small;
+    color:#999
+    }
+    
+  </style>
+</body>
+</html>
