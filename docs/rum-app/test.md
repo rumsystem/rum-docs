@@ -49,6 +49,7 @@
 
 <script>
   (() => {
+    const q = s => document.querySelector(s);
     const state = {
       rumAppVersionRaw: '',
       rumAndroidVersion: '',
@@ -75,6 +76,10 @@
         const versionMatch = metaText.match(/^version: (\d+\.\d+\.\d+)\n/)
         const version = versionMatch[1];
         state.rumAppVersionRaw = version;
+        q('#rum-app-version').textContent = state.rumAppVersionRaw;
+        q('#rum-app-win-link').href = state.rumAppWinLink;
+        q('#rum-app-linux-link').href = state.rumAppLinuxLink;
+        q('#rum-app-mac-link').href = state.rumAppMacLink;
       } catch (e) {}
     };
 
@@ -84,25 +89,14 @@
         const fetchResponse = await fetch('https://xue.cn/hub/api/app_managements?platform=android&channel=rum');
         const data = await fetchResponse.json();
         state.rumAndroidLink = data.file;
-        state.rumAndroidVersion = `v${data.version_name}`;
+        state.rumAndroidVersion = data.version_name;
+        q('#rum-android-version').textContent = state.rumAndroidVersion;
+        q('#rum-android-link').href = state.rumAndroidLink;
+        q('#rum-android-32bit-link').href = state.rumAndroidLink.replace(/\.apk$/, '_armeabi.apk');
       } catch (e) {}
     };
 
-    const getVersion = async () => {
-      await Promise.all([
-        getRumAppVersion(),
-        getRumAndroidVersion(),
-      ]);
-      const q = s => document.querySelector(s);
-      q('#rum-app-version').textContent = state.rumAppVersionRaw;
-      q('#rum-app-win-link').href = state.rumAppWinLink;
-      q('#rum-app-linux-link').href = state.rumAppLinuxLink;
-      q('#rum-app-mac-link').href = state.rumAppMacLink;
-      q('#rum-android-version').textContent = state.rumAndroidVersion;
-      q('#rum-android-link').href = state.rumAndroidLink;
-      q('#rum-android-32bit-link').href = state.rumAndroidLink.replace(/\.apk$/, '_armeabi.apk');
-    };
-    
-    getVersion();
+    getRumAppVersion();
+    getRumAndroidVersion();
   })();
 </script>
