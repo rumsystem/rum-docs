@@ -71,7 +71,7 @@
     const getRumAppVersion = async () => {
       if (state.rumAppVersionRaw) { return; }
       try {
-        const fetchResponse = await fetch('https://static-assets.pek3b.qingstor.com/rum-testing/latest.yml');
+        const fetchResponse = await fetch(`https://static-assets.pek3b.qingstor.com/rum-testing/latest.yml?t=${Date.now()}`);
         const metaText = await fetchResponse.text();
         const versionMatch = metaText.match(/^version: (\d+\.\d+\.\d+)\n/)
         const version = versionMatch[1];
