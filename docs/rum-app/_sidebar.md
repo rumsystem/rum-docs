@@ -1,6 +1,7 @@
 - [种子网络](/rum-app/)
 - [基本信息](/rum-app/about)
 - [社区内测](/rum-app/test)
+- [社区内测-网页版](/rum-app/test_web)
 - [直播-2021年中](/rum-app/live)
 - [直播-2021年底](/rum-app/live2)
 - [PRS相关](/rum-app/prs2rum)
