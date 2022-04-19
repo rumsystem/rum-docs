@@ -14,7 +14,7 @@
 
 本次直播回放网址：https://www.yizhibo.com/l/gpSjtn1i8a5k3nQc.html 您可拖放滚动条，从 08:10 开始听直播。
 
-免费阅读：https://docs.prsdev.club/#/rum-app/live2
+免费阅读：https://rumsystem.github.io/rum-docs/#/rum-app/live2
 
 以下是正文。
 
@@ -34,7 +34,7 @@
 
 我看了大家提的问题。很多问题被提出，是因为还没有弄清楚我们 RUM 在做什么。所以我想趁这个机会 再讲一下 RUM 到底是怎么回事。
 
-RUM 已在社区内测，我们也看到了 [RUM 产品](https://docs.prsdev.club/#/rum-app/test)的样子，像微博、像论坛，像各种东西。
+RUM 已在社区内测，我们也看到了 [RUM 产品](https://rumsystem.net/apps)的样子，像微博、像论坛，像各种东西。
 
 但是，在 RUM 产品的下面，**是什么**？RUM 产品的下面是一套**同步的系统**。大家也看到了每次打开 RUM 产品都需要同步，目前可能有一点慢。
 

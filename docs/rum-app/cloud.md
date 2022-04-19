@@ -20,7 +20,7 @@
 
 登入后，如果提示绑定微信号，可扫码。也可跳过。
 
-![](https://docs.prsdev.club/rum-app/images/cloud_wechat.png)
+![](./images/cloud_wechat.png)
 
 
 ### 2、进入控制台
@@ -29,13 +29,13 @@
 
 点击它:
 
-![](https://docs.prsdev.club/rum-app/images/cloud_server.png)
+![](./images/cloud_server.png)
 
 ### 3、查看服务器概要
 
 在 `服务器` 这个页签下，可以看到你买到的服务器。点服务器名字，可以打开一个新的页面，展示着服务器的概要。
 
-![](https://docs.prsdev.club/rum-app/images/cloud_home.png)
+![](./images/cloud_home.png)
 
 在这个页面上，我们将完成服务器的初次设置。以后你也会频繁登入腾讯云官网来操作。
 
@@ -56,7 +56,7 @@
 
 找到 `镜像信息`，点击 `重置应用`：
 
-![](https://docs.prsdev.club/rum-app/images/cloud_mirror.png)
+![](./images/cloud_mirror.png)
 
 在新弹出的页面中，选择 windows 2016 （也可以选择其它 windows 版本，但大家版本一致，如果你遇到异常时，方便交流和获取帮助）。
 
@@ -64,13 +64,13 @@
 
 然后点击确认。等它完成后，回到服务器概要页。
 
-![](https://docs.prsdev.club/rum-app/images/cloud_windows.png)
+![](./images/cloud_windows.png)
 
 ### 2、重置密码
 
 在服务器概要页，找到 `重置密码`，点击它。
 
-![](https://docs.prsdev.club/rum-app/images/cloud_pwd.png)
+![](./images/cloud_pwd.png)
 
 在弹出的页面的两个输入框，输入或粘贴你的新密码。
 
@@ -78,7 +78,7 @@
 
 保管好密码后，再点击下一步。
 
-![](https://docs.prsdev.club/rum-app/images/cloud_pwd2.png)
+![](./images/cloud_pwd2.png)
 
 
 如果要重启服务器，没关系，勾选让它重启即可。重启完成后，回到服务器概要页。
@@ -87,9 +87,9 @@
 
 从服务器概要切换到 `防火墙` 页。点击 `添加规则` 按钮。
 
-![](https://docs.prsdev.club/rum-app/images/cloud_tcp.png)
+![](./images/cloud_tcp.png)
 
-![](https://docs.prsdev.club/rum-app/images/cloud_tcp1.png)
+![](./images/cloud_tcp1.png)
 
 选择 `全部TCP`，其它不用动，点击确定。提交后，列表中会多出来一行 `全部TCP` 相关信息。
 
@@ -103,11 +103,11 @@ OK，服务器基本信息的三大更改完成了。接下来开始远程登录
 
 在服务器概要页，找到下述的 `VNC登录`，点击它。
 
-![](https://docs.prsdev.club/rum-app/images/cloud_vnc.png)
+![](./images/cloud_vnc.png)
 
 现在，你通过本地的浏览器，可以看到你的云服务器的登入画面啦。
 
-![](https://docs.prsdev.club/rum-app/images/cloud_login.png)
+![](./images/cloud_login.png)
 
 在左上角找到 `发送远程命令`，然后点击 `CTLD-ALT-DELET` 这个选项。右侧画面会展示一个 windows 电脑的登入窗口。
 
@@ -125,31 +125,31 @@ OK，服务器基本信息的三大更改完成了。接下来开始远程登录
 
 复制公网 IP，公网 IP 在服务器 `概要` 页 `网络信息` 板块查看，复制它：
 
-![](https://docs.prsdev.club/rum-app/images/20211105181522.png)
+![](./images/20211105181522.png)
 
 开始菜单中找到 `运行` 打开（Win 10 可以用搜索输入 `run` 快速找到它）：
 
-![](https://docs.prsdev.club/rum-app/images/20211105180431.png)
+![](./images/20211105180431.png)
 
 弹出窗口输入 `mstsc`，确定：
 
-![](https://docs.prsdev.club/rum-app/images/20211105180713.png)
+![](./images/20211105180713.png)
 
 弹出窗口点击 `显示选项`：
 
-![](https://docs.prsdev.club/rum-app/images/20211105204409.png)
+![](./images/20211105204409.png)
 
 接着在 `计算机` 后面，粘贴云服务器的公网 IP；`用户名` 后输入服务器的管理员帐号（默认是 `Administrator`）：
 
-![](https://docs.prsdev.club/rum-app/images/2021-11-05_20-39-51.png)
+![](./images/2021-11-05_20-39-51.png)
 
 然后转到 `本地资源`，点击 `详细信息`，展开 `驱动器`，选择一个盘（**这个选项非常好用，例如你选择了 F 盘，则链接到服务器后，F 盘本地和云端都可以用，可以随便复制、粘贴文件**），确定后点击 `链接`（两次）：
 
-![](https://docs.prsdev.club/rum-app/images/2021-11-05_20-39-56.png)
+![](./images/2021-11-05_20-39-56.png)
 
 弹出对话框选 `是`：
 
-![](https://docs.prsdev.club/rum-app/images/20211105182626.png)
+![](./images/20211105182626.png)
 
 如此，您已经远程登录云服务器。将弹出的 `服务器管理器仪表板` 点击右上角 `x` 关掉，就进入桌面啦。
 
@@ -161,15 +161,15 @@ OK，服务器基本信息的三大更改完成了。接下来开始远程登录
 
 登录云服务器后，打开 IE 浏览器。云服务器已经自动安装了 IE 浏览器，且安全级别很高。使用推荐设置即可，点击确定。
 
-![](https://docs.prsdev.club/rum-app/images/cloud_ie1.png)
+![](./images/cloud_ie1.png)
 
 终于出来了 IE 界面，鼠标选中地址栏的地址，清空它。
 
 保持鼠标在地址栏输入框，然后点击上面的 `这里`。
 
-![](https://docs.prsdev.club/rum-app/images/cloud_ie2.png)
+![](./images/cloud_ie2.png)
 
-在弹出的窗口粘贴 RUM 下载页的网址：https://docs.prsdev.club/#/rum-app/test
+在弹出的窗口粘贴 RUM 下载页的网址：https://rumsystem.net/apps
 
 你会发现，地址栏会自动输入刚刚粘贴的网址。回车，会跳转到上述网页。
 
@@ -177,11 +177,11 @@ OK，服务器基本信息的三大更改完成了。接下来开始远程登录
 
 下面这种，点击 `添加`：
 
-![](https://docs.prsdev.club/rum-app/images/cloud_ie3.png)
+![](./images/cloud_ie3.png)
 
 下面这种，点击 `添加` 后，点击 `关闭`。
 
-![](https://docs.prsdev.club/rum-app/images/cloud_ie4.png)
+![](./images/cloud_ie4.png)
 
 就顺利打开 RUM 下载页的网址啦。
 
@@ -189,11 +189,11 @@ OK，服务器基本信息的三大更改完成了。接下来开始远程登录
 
 在 RUM 下载页，找到 windows 的安装包，点击，会触发下载。你会重复上述 IE 设置过程。直到 RUM 下载被顺利加载出来。点击 `保存` 的 `另存为`（三个选项任选一个都可以，另存为方便找到安装包），等待下载完。
 
-![](https://docs.prsdev.club/rum-app/images/2021-11-05_18-50-43.png)
+![](./images/2021-11-05_18-50-43.png)
 
 下载完后，双击安装包，云服务器会提示你 `.exe` 不安全，不用担心，继续往下操作，运行它，会安装好 RUM。
 
-![](https://docs.prsdev.club/rum-app/images/20211105171627.png)
+![](./images/20211105171627.png)
 
 接下来就如同本地电脑一样使用 RUM 就可以啦。
 
@@ -207,11 +207,11 @@ OK，服务器基本信息的三大更改完成了。接下来开始远程登录
 
 在远程桌面中打开资源管理器，再打开本地和远程同时共用的那个盘：
 
-![](https://docs.prsdev.club/rum-app/images/20211105195827.png)
+![](./images/20211105195827.png)
 
 找到安装包复制到远程桌面上（也可以直接双击安装包安装，可能慢一点）：
 
-![](https://docs.prsdev.club/rum-app/images/20211105203452.png)
+![](./images/20211105203452.png)
 
 复制完了，双击复制过去的安装包安装即可。
 
@@ -235,7 +235,7 @@ OK，服务器基本信息的三大更改完成了。接下来开始远程登录
 
 建议你加入已有公开群组，为整个网络提供信息中转。
 
-可在 RUM 的加入群组界面，找到 `有哪些公开群组可加入`，或直接在IE浏览器 https://docs.prsdev.club/#/rum-app/test 切换到种子文件，拷贝种子粘贴。
+可在 RUM 的加入群组界面，找到 `有哪些公开群组可加入`，或直接在IE浏览器 https://rumsystem.github.io/rum-docs/#/rum-app/test 切换到种子文件，拷贝种子粘贴。
 
 注意，拷贝文本时，最后面可能会多出来 `json` 几个字符，手动移除一下。
 

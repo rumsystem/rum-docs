@@ -8,13 +8,13 @@
 
 2、数字代表第几条语音。由于口语存在大量的“那”、“这个”，“呃”，“就是”之类的助词，文字整理时稍作精简，其余尽量和口语一致。
 
-免费阅读：https://docs.prsdev.club/#/rum-app/live
+免费阅读：https://rumsystem.github.io/rum-docs/#/rum-app/live
 
 以下是分享的正文。
 
 ## cover
 
-![0-cover.jpg](https://docs.prsdev.club/rum-app/images/20210625/0-cover.jpg)
+![0-cover.jpg](./images/20210625/0-cover.jpg)
 
 1、
 
@@ -36,7 +36,7 @@
 
 ## groups and network
 
-![1-groups-and-network.jpg](https://docs.prsdev.club/rum-app/images/20210625/1-groups-and-network.jpg)
+![1-groups-and-network.jpg](./images/20210625/1-groups-and-network.jpg)
 
 2、
 
@@ -71,7 +71,7 @@ Gossip Network 翻译成八卦网络还是十分形象的。
 
 ## ownership and license
 
-![2-ownership-and-license.jpg](https://docs.prsdev.club/rum-app/images/20210625/2-ownership-and-license.jpg)
+![2-ownership-and-license.jpg](./images/20210625/2-ownership-and-license.jpg)
 
 4、
 
@@ -151,7 +151,7 @@ PRS 其实以前做了很多这方面的事，就是希望在内容一产生，�
 
 ## data profit vs cost
 
-![3-data-profit-vs-cost.jpg](https://docs.prsdev.club/rum-app/images/20210625/3-data-profit-vs-cost.jpg)
+![3-data-profit-vs-cost.jpg](./images/20210625/3-data-profit-vs-cost.jpg)
 
 9、
 
@@ -187,7 +187,7 @@ PRS 其实以前做了很多这方面的事，就是希望在内容一产生，�
 
 ## service neutrality
 
-![4-service-neutrality.jpg](https://docs.prsdev.club/rum-app/images/20210625/4-service-neutrality.jpg)
+![4-service-neutrality.jpg](./images/20210625/4-service-neutrality.jpg)
 
 11、
 
@@ -271,7 +271,7 @@ PRS 其实以前做了很多这方面的事，就是希望在内容一产生，�
 
 ## cloud neutrality
 
-![5-cloud-neutrality.jpg](https://docs.prsdev.club/rum-app/images/20210625/5-cloud-neutrality.jpg)
+![5-cloud-neutrality.jpg](./images/20210625/5-cloud-neutrality.jpg)
 
 16、
 
@@ -347,7 +347,7 @@ PRS 其实以前做了很多这方面的事，就是希望在内容一产生，�
 
 ## trust in tech giants
 
-![6-trust-in-tech-giants.jpg](https://docs.prsdev.club/rum-app/images/20210625/6-trust-in-tech-giants.jpg)
+![6-trust-in-tech-giants.jpg](./images/20210625/6-trust-in-tech-giants.jpg)
 
 22、
 
@@ -381,7 +381,7 @@ Instagram 居然已经到了 9% 了啊，Facebook 只有百分之十几。
 
 ## opportunity 2020
 
-![7-opportunity-2020.jpg](https://docs.prsdev.club/rum-app/images/20210625/7-opportunity-2020.jpg)
+![7-opportunity-2020.jpg](./images/20210625/7-opportunity-2020.jpg)
 
 24、
 
@@ -414,7 +414,7 @@ Instagram 居然已经到了 9% 了啊，Facebook 只有百分之十几。
 
 ## architechture
 
-![8-architechture.jpg](https://docs.prsdev.club/rum-app/images/20210625/8-architechture.jpg)
+![8-architechture.jpg](./images/20210625/8-architechture.jpg)
 
 26、
 
@@ -469,7 +469,7 @@ PRS 以前做过很多 EOS 相关的兼容的应用，但是今天我们看来�
 
 ## groups and network
 
-![8-groups-and-network.jpg](https://docs.prsdev.club/rum-app/images/20210625/8-groups-and-network.jpg)
+![8-groups-and-network.jpg](./images/20210625/8-groups-and-network.jpg)
 
 30、
 
@@ -510,7 +510,7 @@ PRS 以前做过很多 EOS 相关的兼容的应用，但是今天我们看来�
 
 ## concepts
 
-![9-concepts.jpg](https://docs.prsdev.club/rum-app/images/20210625/9-concepts.jpg)
+![9-concepts.jpg](./images/20210625/9-concepts.jpg)
 
 33、
 
@@ -549,11 +549,11 @@ transaction 里面包含的东西叫 message，叫消息。
 
 ## trx message activity streams
 
-![10-trx-message-activity-streams.jpg](https://docs.prsdev.club/rum-app/images/20210625/10-trx-message-activity-streams.jpg)
+![10-trx-message-activity-streams.jpg](./images/20210625/10-trx-message-activity-streams.jpg)
 
 ## self hosted fediverse
 
-![11-self-hosted-fediverse.jpg](https://docs.prsdev.club/rum-app/images/20210625/11-self-hosted-fediverse.jpg)
+![11-self-hosted-fediverse.jpg](./images/20210625/11-self-hosted-fediverse.jpg)
 
 36、
 
@@ -638,7 +638,7 @@ PRS 也做了一个这样概念的东西，就是飞帖。
 
 ## opportunity 2010 v 2021
 
-![12-opportunity-2010-v-2021.jpg](https://docs.prsdev.club/rum-app/images/20210625/12-opportunity-2010-v-2021.jpg)
+![12-opportunity-2010-v-2021.jpg](./images/20210625/12-opportunity-2010-v-2021.jpg)
 
 42、
 
@@ -682,7 +682,7 @@ PRS 也做了一个这样概念的东西，就是飞帖。
 
 ## group based gossip protocol
 
-![13-group-based-gossip-protocol.jpg](https://docs.prsdev.club/rum-app/images/20210625/13-group-based-gossip-protocol.jpg)
+![13-group-based-gossip-protocol.jpg](./images/20210625/13-group-based-gossip-protocol.jpg)
 
 45、
 
@@ -717,7 +717,7 @@ Gossip 协议也是八十年代就提出了，但是在那个时候的网络状�
 
 ## other p2p projects
 
-![14-other-p2p-projects.jpg](https://docs.prsdev.club/rum-app/images/20210625/14-other-p2p-projects.jpg)
+![14-other-p2p-projects.jpg](./images/20210625/14-other-p2p-projects.jpg)
 
 47、
 
@@ -757,7 +757,7 @@ filecoin 是提供了一些币的激励，所以今天很多人也来挖这个�
 
 ## potential dapps
 
-![15-potential-dapps.jpg](https://docs.prsdev.club/rum-app/images/20210625/15-potential-dapps.jpg)
+![15-potential-dapps.jpg](./images/20210625/15-potential-dapps.jpg)
 
 50、
 
@@ -838,7 +838,7 @@ POST 了之后，其实所有人永远可以通过这个东西找到你，只要
 
 ## potential users and their requirement
 
-![16-potential-users-and-their-requirement.jpg](https://docs.prsdev.club/rum-app/images/20210625/16-potential-users-and-their-requirement.jpg)
+![16-potential-users-and-their-requirement.jpg](./images/20210625/16-potential-users-and-their-requirement.jpg)
 
 57、
 
@@ -881,7 +881,7 @@ POST 了之后，其实所有人永远可以通过这个东西找到你，只要
 
 ## low energe usage mining
 
-![17-low-energe-usage-mining.jpg](https://docs.prsdev.club/rum-app/images/20210625/17-low-energe-usage-mining.jpg)
+![17-low-energe-usage-mining.jpg](./images/20210625/17-low-energe-usage-mining.jpg)
 
 59、
 
@@ -954,7 +954,7 @@ RUM 是反过来往上看，先看到了一个纯 P2P 的系统，再往上一�
 
 ## thanks
 
-![18-thanks.jpg](https://docs.prsdev.club/rum-app/images/20210625/18-thanks.jpg)
+![18-thanks.jpg](./images/20210625/18-thanks.jpg)
 
 65、
 
